@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2048之J8水比欢乐AI版</string>
+    
+    <string name="best_score">最高分</string>
+    <string name="curr_score">得分</string>
+    
+    <string name="reset_game">重新开始</string>
+    <string name="start_auto">自动运行</string>
+    <string name="stop_auto">停止</string>
+    
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    
+    <string name="reset_message">确定要重新开始本局吗?</string>
+    <string name="exit_message">确定要退出吗?</string>
+    
+    <string name="win_message">大水比你赢了,去J8炫耀吧.</string>
+    <string name="fail_message">大水比你输了,你离2048还有一步之遥!</string>
+</resources>

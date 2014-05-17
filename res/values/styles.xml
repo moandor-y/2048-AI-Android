@@ -1,0 +1,116 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="valueLabel" parent="android:Widget">
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">34dip</item>
+        <item name="android:textColor">@color/text_value_label</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+ 
+    <style name="scoreLabel" parent="android:Widget">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#EFEAE5</item>
+    </style>
+    
+    <style name="scoreContent" parent="android:Widget">
+        <item name="android:layout_width">80dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="baseCell" parent="android:Widget">
+        <item name="android:layout_width">60dip</item>
+        <item name="android:layout_height">60dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dip</item>
+    </style>
+    
+
+    
+    <style name="cellTextStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dip</item>
+    </style>
+
+    <style name="cell_2" parent="@style/baseCell">
+        <item name="android:background">#CCC0B3</item>
+        <item name="android:textColor">#776E65</item>
+    </style>
+
+    <style name="cell_4" parent="@style/baseCell">
+        <item name="android:background">#ede0c8</item>
+        <item name="android:textColor">#776E65</item>
+    </style>
+
+    <style name="cell_8" parent="@style/baseCell">
+        <item name="android:background">#f2b179</item>
+        <item name="android:textColor">#f9f6f2</item>
+    </style>
+
+    <style name="cell_16" parent="@style/baseCell">
+        <item name="android:background">#f59563</item>
+        <item name="android:textColor">#f9f6f2</item>
+    </style>
+
+    <style name="cell_32" parent="@style/baseCell">
+        <item name="android:background">#f67c5f</item>
+        <item name="android:textColor">#f9f6f2</item>
+    </style>
+
+    <style name="cell_64" parent="@style/baseCell">
+        <item name="android:background">#f65e3b</item>
+        <item name="android:textColor">#f9f6f2</item>
+    </style>
+
+    <style name="cell_128" parent="@style/baseCell">
+        <item name="android:background">#edcf72</item>
+        <item name="android:textColor">#f9f6f2</item>
+    </style>
+
+    <style name="cell_256" parent="@style/baseCell">
+        <item name="android:background">#edcc61</item>
+        <item name="android:textColor">#f9f6f2</item>
+    </style>
+
+    <style name="cell_512" parent="@style/baseCell">
+        <item name="android:background">#edc850</item>
+        <item name="android:textColor">#f9f6f2</item>
+    </style>
+
+    <style name="cell_1024" parent="@style/baseCell">
+        <item name="android:background">#edc53f</item>
+        <item name="android:textColor">#f9f6f2</item>
+    </style>
+
+    <style name="cell_2048" parent="@style/baseCell">
+        <item name="android:background">#edc22e</item>
+        <item name="android:textColor">#f9f6f2</item>
+    </style>
+
+
+</resources>
