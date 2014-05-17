@@ -1,7 +1,7 @@
 2048-AI-Android
 ===============
 
-2048AndroidAI版
+2048 Android AI版
 
 [AI算法](https://github.com/ov3y/2048-AI)
 
